@@ -5,7 +5,6 @@ Displays temperature and wind speed trends for the last 1 month for selected cit
 ## Demo
 https://myweathertrends.appspot.com/
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.
 
 ## Development server
 
