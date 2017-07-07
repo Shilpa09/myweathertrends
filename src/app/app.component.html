@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-inverse bg-primary">
+                <a class="navbar-brand" href="#">Weather Trends</a>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>Displays temperature and wind speed trends for the last 1 month for selected city. Uses historical weather data maintained by National Oceanic and Atmospheric Administration (NOAA)</p>
+            <hr/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label class="mr-sm-2" for="cityselector">Select City</label>
+            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="cityselector" [(ngModel)]="selectedcity" (ngModelChange)="updateCharts()">
+                <option *ngFor="let city of cities" [value]="city">{{city}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="well" [chart]="chart1"></div>
+        </div>
+        <div class="col">
+            <div class="well" [chart]="chart2"></div>
+        </div>
+    </div>
+</div>
