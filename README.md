@@ -1,6 +1,11 @@
-# Myweathertrends
+# My Weather Trends
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
+Displays temperature and wind speed trends for the last 1 month for selected city. Uses historical weather data maintained by National Oceanic and Atmospheric Administration (NOAA)
+
+## Demo
+https://myweathertrends.appspot.com/
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.
 
 ## Development server
 
